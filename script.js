@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Append the chatbot's response to the chatbox
         chatbox.innerHTML += `<div><strong>You:</strong> ${userMessage}</div>`;
-        chatbox.innerHTML += `<div><strong>Chatbot:</strong> ${chatbotResponse[0].content}</div>`;
+        chatbox.innerHTML += `<div><strong>Chatbot:</strong> ${chatbotResponse}</div>`;
 
         // Clear the user input field
         userInput.value = '';
